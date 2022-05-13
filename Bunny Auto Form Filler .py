@@ -26,7 +26,6 @@ if __name__ == "__main__":
     page_to_scrape.find_element(By.XPATH,'''//*[@id="wsite-com-product-modifiers"]/div/div[3]/label[12]''').click() #airport
     page_to_scrape.find_element(By.XPATH,'''//*[@id="wsite-com-product-modifiers"]/div/div[4]/label[3]''').click()#personal delivery quote
 
-
     shipping = page_to_scrape.find_element(By.ID, "wsite-com-product-modifier-11ec593a7940a2d6a53682379b181de5")
     shipping.send_keys("ship")
 
@@ -63,7 +62,6 @@ if __name__ == "__main__":
 
     city = page_to_scrape.find_element(By.NAME, '''city''')
     city.send_keys('Monterey Park')
-
 
     city = page_to_scrape.find_element(By.NAME, '''phone''')
     city.send_keys('6266320067')
