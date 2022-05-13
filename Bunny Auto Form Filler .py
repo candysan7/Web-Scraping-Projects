@@ -24,8 +24,6 @@ if __name__ == "__main__":
     page_to_scrape.find_element(By.XPATH, '''//*[@id="wsite-com-product-modifiers"]/div/div[2]/label[3]''').click() # i agree reading 
 
     page_to_scrape.find_element(By.XPATH,'''//*[@id="wsite-com-product-modifiers"]/div/div[3]/label[12]''').click() #airport
-
-
     page_to_scrape.find_element(By.XPATH,'''//*[@id="wsite-com-product-modifiers"]/div/div[4]/label[3]''').click()#personal delivery quote
 
 
