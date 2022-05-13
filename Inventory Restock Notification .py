@@ -23,7 +23,7 @@ def sendtext(url):
         elif 'Check Back Soon!' not in str(searcher): 
             print('In stock!')
 
-            client = Client('AC59d8cf955932bd9e09ff033228d1e477', '9803609d5ec221dd365e69806d0409e5')
+            client = Client('id', 'id')
 
             client.api.account.messages.create(
             to="+16266352542",
